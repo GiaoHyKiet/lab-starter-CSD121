@@ -1,4 +1,5 @@
+import static java.lang.IO.*;
 
 void main() {
-    IO.println("Hello, World!");
+    println("Hello, World!");
 }
