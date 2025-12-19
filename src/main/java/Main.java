@@ -1,6 +1,5 @@
-public class Main {
+import static java.lang.IO.*;
 
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+void main() {
+    println("Hello, World!");
 }
