@@ -8,6 +8,6 @@ Enter your name here: ___________
 
 ## The best animals
 
-1. Cuttlefish
-2. Platypus
-3. Three-toed sloth
+1. Axolotl
+2. Bonobo
+3. Capybara
