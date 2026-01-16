@@ -13,4 +13,4 @@ Enter your name here: GiaoHyKiet
 3. Duck
 4.Cuttlefish
 5.Platypus
-6.Three-toed sloth
+6.Three-toed sloth.
