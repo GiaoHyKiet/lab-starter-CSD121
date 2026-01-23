@@ -9,6 +9,14 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 
+/*
+
+Types used in this code:
+
+(Add your answers to lab instruction #4 here)
+
+ */
+
 void main() {
 
     try {
