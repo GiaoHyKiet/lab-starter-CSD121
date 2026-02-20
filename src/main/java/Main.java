@@ -1,7 +1,6 @@
-import static java.lang.IO.*;
-
-void main() {
-    println("Hello, World!");
-
-    // Here's a change
+public class Main {
+    public static void main(String[] args) {
+        TrafficLight light = new TrafficLight(LightColor.RED);
+        System.out.println(light.getColor());
+    }
 }

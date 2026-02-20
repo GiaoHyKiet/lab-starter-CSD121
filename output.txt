@@ -1,0 +1,39 @@
+Maven configuration (what to remember)
+
+File: pom.xml
+
+Key sections:
+
+<groupId>, <artifactId>, <version>
+
+<dependencies> (ex: JUnit)
+
+<build> + plugins (ex: surefire for tests)
+
+Standard layout:
+
+src/main/java for app code
+
+src/test/java for tests
+
+Selecting a thorough set of tests (how to think fast)
+
+Use preconditions + postconditions:
+
+Typical/normal case
+
+Boundary cases (min/max, empty, 0, 1)
+
+Invalid cases (null, negative, out of range) if allowed/expected
+
+Special cases (duplicates, case sensitivity, whitespace, overflow)
+
+If method throws exceptions: test that exception type happens when it should
+
+Writing a type definition (class/enum/record)
+
+enum: small fixed set of named values (traffic light colors)
+
+record: data carrier with fields + auto getters/equals/hashCode/toString
+
+class: behavior + mutable state + invariants + multiple constructors, etc.
